@@ -1,0 +1,20 @@
+PODS:
+  - TKMRequest (0.1.0):
+    - TKMRequest/Core (= 0.1.0)
+  - TKMRequest/Core (0.1.0):
+    - TKMRequest/SourceMode
+  - TKMRequest/SourceMode (0.1.0)
+
+DEPENDENCIES:
+  - TKMRequest (from `../`)
+
+EXTERNAL SOURCES:
+  TKMRequest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TKMRequest: 0cde2c3b6bb8ffcfa1c24434bca25023b1c25eb0
+
+PODFILE CHECKSUM: 28a0f97468ba03156b7706c0ebafb51ae5002738
+
+COCOAPODS: 1.10.1
