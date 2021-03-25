@@ -1,0 +1,11 @@
+platform :ios, '9.0'
+
+target 'TKMRequest_Example' do
+  pod 'TKMRequest', :path => '../'
+
+  target 'TKMRequest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
